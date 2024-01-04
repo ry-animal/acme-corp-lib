@@ -1,7 +1,8 @@
 repo_name: ry-animal/acme-corp-lib
 report_id: e444e76d35b23c2524ff29a501c5b326
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:03:25+00:00'
+timestamp: '2024-01-04T15:06:34+00:00'
 requested_by: juliusmarminge
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib
   detection_source: Repo Metadata
 - name: Autoprefixer
   description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
   detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
@@ -47,8 +51,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: docs/package.json
-  detection_source: examples/nextjs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: Node.js
@@ -60,7 +64,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: React
@@ -73,8 +78,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: docs/package.json
-  detection_source: examples/nextjs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: Prisma
@@ -87,7 +92,7 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
-  detection_source_url: examples/nextjs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/examples/nextjs/package.json
   detection_source: examples/nextjs/package.json
   last_updated_by: Julius Marminge
   last_updated_on: 2023-05-11 23:07:39.000000000 Z
@@ -100,7 +105,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: packages/generator/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: Git
@@ -111,6 +117,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -120,7 +127,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/release.yml"
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: npm
@@ -131,6 +139,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/packages/eslint-plugin/package.json
   detection_source: packages/eslint-plugin/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
@@ -144,7 +153,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18156/default_9663441986aa2be78296ccf617e43ef9e612b34e.png
-  detection_source_url: packages/eslint-plugin/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/packages/eslint-plugin/package.json
   detection_source: packages/eslint-plugin/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
@@ -158,8 +167,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: docs/package.json
-  detection_source: package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: "@types/react"
@@ -172,8 +181,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: docs/package.json
-  detection_source: examples/nextjs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: "@types/react-dom"
@@ -186,8 +195,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: docs/package.json
-  detection_source: examples/nextjs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: "@typescript-eslint/eslint-plugin"
@@ -200,7 +209,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/package.json
   detection_source: package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
@@ -214,8 +223,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package.json
-  detection_source: packages/eslint-plugin/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/package.json
+  detection_source: package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: postcss
@@ -228,7 +237,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: docs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
   detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
@@ -249,8 +258,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: docs/package.json
-  detection_source: examples/nextjs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: sharp
@@ -263,10 +272,17 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
-  detection_source_url: docs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
   detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
+  vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
 - name: tailwindcss
   description: A utility-first CSS framework for rapidly building custom user interfaces
   package_url: https://www.npmjs.com/tailwindcss
@@ -277,7 +293,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: docs/package.json
+  detection_source_url: https://github.com/ry-animal/acme-corp-lib/blob/main/docs/package.json
   detection_source: docs/package.json
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
