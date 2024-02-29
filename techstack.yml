@@ -2,7 +2,7 @@ repo_name: ry-animal/acme-corp-lib
 report_id: e444e76d35b23c2524ff29a501c5b326
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:14:49+00:00'
+timestamp: '2024-02-29T18:15:03+00:00'
 requested_by: juliusmarminge
 provider: github
 branch: main
@@ -43,7 +43,7 @@ tools:
   last_updated_by: juliusmarminge
   last_updated_on: 2023-05-11 22:25:56.000000000 Z
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 13.4.1
   open_source: true
